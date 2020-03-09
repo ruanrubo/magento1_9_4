@@ -1,1 +1,9 @@
-/var
+#忽略编译文件夹
+
+var/
+
+#忽略.class文件
+
+*.gitignore
+*.htaccess
+*.htaccess.sample
