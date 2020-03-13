@@ -3,7 +3,7 @@
 var/cache
 var/report
 var/session
-
+var/locks
 media/catalog/product/cache
 
 #忽略.class文件
