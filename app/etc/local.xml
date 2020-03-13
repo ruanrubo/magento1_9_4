@@ -28,10 +28,10 @@
 <config>
     <global>
         <install>
-            <date><![CDATA[Fri, 06 Mar 2020 09:03:05 +0000]]></date>
+            <date><![CDATA[Fri, 13 Mar 2020 11:47:13 +0000]]></date>
         </install>
         <crypt>
-            <key><![CDATA[a49d9a81075efc70a739c7d016a8a31e]]></key>
+            <key><![CDATA[2f96f03ce9116066d6f6ea816a1fe238]]></key>
         </crypt>
         <disable_local_modules>false</disable_local_modules>
         <resources>
@@ -43,7 +43,7 @@
                     <host><![CDATA[localhost]]></host>
                     <username><![CDATA[root]]></username>
                     <password><![CDATA[DRsXT5ZJ6Oi55LPQ]]></password>
-                    <dbname><![CDATA[magento1]]></dbname>
+                    <dbname><![CDATA[magento_1_9_4]]></dbname>
                     <initStatements><![CDATA[SET NAMES utf8]]></initStatements>
                     <model><![CDATA[mysql4]]></model>
                     <type><![CDATA[pdo_mysql]]></type>
@@ -52,7 +52,7 @@
                 </connection>
             </default_setup>
         </resources>
-        <session_save><![CDATA[files]]></session_save>
+        <session_save><![CDATA[db]]></session_save>
     </global>
     <admin>
         <routers>
