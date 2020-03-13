@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Mytest_NewApi>
+            <version>0.1.0</version>
+        </Mytest_NewApi>
+    </modules>
+    
+    <frontend>
+        <routers>
+            <!-- 设置访问的路由 http://127.0.0.1/magento/index.php/Api  -->
+            <newapi>
+                <use>standard</use>
+                <args>
+                    <module>Mytest_NewApi</module>
+                    <frontName>newapi</frontName>
+                </args>
+            </newapi>
+        </routers>
+    </frontend>
+</config>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/**
+ * 测试接口xml
+ */
+-->
+<config>
+    <modules>
+        <Mytest_NewApi>
+            <active>true</active>
+            <codePool>community</codePool>
+            <!-- 
+            /** <codePool> 代码池
+            * community 表示：app\code\community
+            * local 表示：app\code\local
+            * core 表示 app\code\core 
+            */
+            -->
+        </Mytest_NewApi>
+    </modules>
+</config>
