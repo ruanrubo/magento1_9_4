@@ -1,6 +1,9 @@
 #忽略编译文件夹
 
-var
+var/cache
+var/report
+var/session
+
 media/catalog/product/cache
 
 #忽略.class文件
